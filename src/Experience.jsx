@@ -27,7 +27,7 @@ export default function Experience() {
 
         <OrbitControls makeDefault />
 
-        <directionalLight position={[1, 2, 3]} intensity={4.5} />
+        <directionalLight castShadow position={[1, 2, 3]} intensity={4.5} />
         <ambientLight intensity={1.5} />
 
         <mesh castShadow position-x={2}>
