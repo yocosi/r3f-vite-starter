@@ -7,7 +7,7 @@ import Experience from './Experience.jsx'
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <Leva collapsed />
+        <Leva collapsed={false} />
         <Canvas
             shadows
             camera={{
